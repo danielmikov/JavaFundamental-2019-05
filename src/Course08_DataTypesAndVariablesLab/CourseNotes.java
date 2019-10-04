@@ -31,8 +31,7 @@ public class CourseNotes {
         char charLetter = 'A';
         char charValue = 65;
         System.out.println(charLetter); //will print A
-AD        System.out.println((char) charValue); //will print AHello
-
+        System.out.println((char) charValue); //will print A
 
     }
 }
