@@ -21,20 +21,20 @@ public class Exercise07_MaxSequenceOfEqualElements {
 
                 sequenceLengthCurrent++;
                 sequenceDigitCurrent = input[i];
+                if(sequenceLengthCurrent > sequenceLengthLongest){
+                    sequenceLengthLongest = sequenceLengthCurrent;
+                    sequenceDigitLongest = sequenceDigitCurrent;
+                }
             }
             //no sequence
             else {
-                if (sequenceLengthCurrent > sequenceLengthLongest){
-                    sequenceDigitLongest = sequenceDigitCurrent;
-                    sequenceLengthLongest = sequenceLengthCurrent;
-                }
                 lastIndex = input[i];
                 sequenceLengthCurrent = 0;
             }
-            for (int j = 0; j < sequenceLengthLongest; j++) {
-                System.out.printf("%d ",sequenceDigitLongest);
+        }
+        for (int j = 0; j <= sequenceLengthLongest; j++) {
+            System.out.printf("%d ",sequenceDigitLongest);
 
-            }
         }
     }
 }
