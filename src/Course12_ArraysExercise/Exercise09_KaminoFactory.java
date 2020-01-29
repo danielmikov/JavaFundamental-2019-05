@@ -21,7 +21,6 @@ public class Exercise09_KaminoFactory {
 
         } while (input != "Clone them!");
 
-        System.out.printf("Best DNA sample %d with sum: %d.", bestSequenceIndex, bestSequenceSum);
+        //System.out.printf("Best DNA sample %d with sum: %d.", bestSequenceIndex, bestSequenceSum);
     }
-}
 }
