@@ -10,10 +10,10 @@ public class Exercise01_SignOfIntegerNumbers {
 
         Integer input = Integer.parseInt(scanner.nextLine());
 
-        ConfirmIntSign(input);
+        confirmIntSign(input);
     }
 
-    private static void ConfirmIntSign(Integer input) {
+    private static void confirmIntSign(Integer input) {
         if (input < 0){
             System.out.printf("The number %d is negative.", input);
         } else if (input == 0){
