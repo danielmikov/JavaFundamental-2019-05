@@ -12,7 +12,7 @@ public class CourseNotes {
         int[] numbers0 = {0, 1, 2};
 
 // -----
-        int[] numbers01 = new int[3]; //initialize an integer array of 3 ellements
+        int[] numbers01 = new int[3]; //initialize an integer array of 3 elements
         numbers01[0] = scanner.nextInt();
         numbers01[1] = scanner.nextInt();
         numbers01[2] = scanner.nextInt();
