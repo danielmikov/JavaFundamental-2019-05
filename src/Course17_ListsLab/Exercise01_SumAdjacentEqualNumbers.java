@@ -4,8 +4,6 @@ import java.text.DecimalFormat;
 import java.util.*;
 import java.util.stream.Collectors;
 
-import static java.lang.String.format;
-
 public class Exercise01_SumAdjacentEqualNumbers {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
