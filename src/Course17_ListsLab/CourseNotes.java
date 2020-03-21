@@ -16,12 +16,15 @@ public class CourseNotes {
         String[] wordsArrays = new String[]{"Hello", "World"};
 
         //Create list of strings:
-        List<String> words1 = new ArrayList<>();
+        List<String> words1 = new ArrayList<>(/*SIZE*/);
         words1.add("Hello");
         words1.add("World");
         words1.add("joke");
         //remove by value
         words1.remove("joke");
+        //remove all elements by value
+        while (words1.remove("joke")) {
+        }
 
         //Create list of strings:
         List<String> words2 = new ArrayList<>(Arrays.asList("Hello", "World", "joke"));
